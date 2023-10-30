@@ -1,0 +1,15 @@
+{
+  "name": "scrubble-challenge",
+  "version": "0.0.1",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "watch": "parcel watch ./src/main/js/app.js --dist-dir ./target/classes/static/built --no-cache --no-hmr",
+    "build": "parcel build  --dist-dir ./target/classes/static/built"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.1"
+  }
+}
